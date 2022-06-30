@@ -8,6 +8,6 @@ A saida do programa é o valor do final do capital, resultado mês a mês ($ + j
 
 Para poder extucar, os passos são:
 
-$ gcc -Wall main.c -o main
+$ gcc -Wall main.c -o main -lm
 
 $ ./main
