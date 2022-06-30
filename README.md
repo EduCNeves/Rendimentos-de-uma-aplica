@@ -6,7 +6,7 @@ As entradas do progamas é o capital inicial, prazo do investimento em meses e a
 
 A saida do programa é o valor do final do capital, resultado mês a mês ($ + juros) e taxa de juros no valor final.
 
-Para poder extucar, os passos são:
+Para poder executar, os passos são:
 
 $ gcc -Wall main.c -o main -lm
 
