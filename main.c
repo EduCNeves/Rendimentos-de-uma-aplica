@@ -20,11 +20,11 @@ int main() {
   
   capital_final = capital*aux;
   
-  printf("valor da capital final é: R$ %-5.2f\n", capital_final);
+  printf("Valor da capital final é: R$ %-5.2f\n", capital_final);
 
   double juros_final;
   juros_final = capital_final - capital;
-  printf("juros no valor final: R$ %-5.2f\n %", juros_final);
+  printf("Taxa de juros no valor final: R$ %-5.2f\n", juros_final);
 
 
   double valor_mensal = capital;
