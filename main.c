@@ -4,11 +4,11 @@
 int main() {
   
   double capital, prazo, juros;
-  printf("Informar o valor do capital a ser investido\n");
+  printf("Informar o valor do capital a ser investido:\n");
   scanf ("%lf", &capital);
-  printf("Informar o prazo do investimento\n");
+  printf("Informar o prazo do investimento em meses:\n");
   scanf ("%lf", &prazo);
-  printf("Informar a taxa de juros da aplicação\n");
+  printf("Informar a taxa de juros da aplicação, em porcentagem\n");
   scanf ("%lf", &juros);
 
   double capital_final;
@@ -24,7 +24,7 @@ int main() {
 
   double juros_final;
   juros_final = capital_final - capital;
-  printf("juros no valor final: R$ %-5.2f\n", juros_final);
+  printf("juros no valor final: R$ %-5.2f\n %", juros_final);
 
 
   double valor_mensal = capital;
